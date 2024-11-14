@@ -43,7 +43,7 @@ routes.get("/:taste", async (req, res) => {
   }
 });
 
-routes.patch("/:id", async (req, res) => {
+routes.patch("/:id", async (req, res) => {S
   try {
     const id = req.params.id;
     const data = req.body;
